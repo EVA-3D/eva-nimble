@@ -17,12 +17,12 @@ Item,Quantity,Name,Material
 16,1,v6_support,PETG
 17,1,shroud,PETG
 18,1,top_endstop_plug_mgn12,PETG
-19,1,top_mgn12_nimble,PETG
+19,1,top_nimble_mgn12,PETG
 20,2,DIN 912 M3 35 mm,Hardened Alloy Steel
 21,4,DIN 912 M3 10 mm,Hardened Alloy Steel
 22,4,"M3  Hex nut ",Hardened Alloy Steel
 23,1,DIN 912 M3 8 mm,Hardened Alloy Steel
-24,1,Mock-up Nimble V2 Right,- None -
+24,1,Zesty Nimble v2 Extruder,- None -
 25,3,DIN 912 M3 30 mm,Hardened Alloy Steel
 26,1,back_corexy,PETG
 27,1,tension_slider_9mm_belt_M5,PETG
