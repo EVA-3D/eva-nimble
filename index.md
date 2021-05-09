@@ -1,42 +1,51 @@
 ---
+title: Nimble
+uid: EVA / Nimble
+type: drive
 badges:
     - Contrib
+contributors:
+    - tomaski
+repo_url: https://github.com/EVA-3D/eva-nimble
+cad_url: https://cad.onshape.com/documents/e35f58c9e706f0d9a1845a48/v/080b000bdcfdc858d6b4cdad/e/f96bfad39506ccd9164835a1
+satisfies:
+    - drive
 ---
 # Nimble v2
 
-![preview](assets/__ALL__.png)
+![preview](assets/Nimble.png)
 
 Zesty Nimble v2 is one of the fancier options out there. Bowden system and direct drive combined to offer best of both worlds: lightness of a bowden and responsiveness of a direct drive. Not very popular choice. And due to high demand, very hard to get.
 
-??? notice "MGN15"
+### BOM
 
-    ![preview](assets/Nimble_v2.MGN15.png)
-    
-    To mount EVA / Nimble v2 on a MGN15C carriage you will need a few different than the default parts and a few longer screws. The BOM replaces **only a few parts and screws** from the default BOM - for MGN15C you need to look at both - **what follows is not the full MGN15C BOM**.
+=== "MGN12"
 
-{{ bom("drives/nimble/bom/nimble_mgn15.csv", 4) }}
+<add-bom-button name="{{ meta.uid }} (MGN12)">
+    {{ bom_to_json("Nimble.v2.MGN12.csv") }}
+</add-bom-button>
+{{ bom_to_md_table("Nimble.v2.MGN12", 4) }}
+
+=== "MGN15"
+
+<add-bom-button name="{{ meta.uid }} (MGN15)">
+    {{ bom_to_json("Nimble.v2.MGN15.csv") }}
+</add-bom-button>
+{{ bom_to_md_table("Nimble.v2.MGN15.csv", 4) }}
+
+#### PTFE Tube lenghts
+
+| Hotend | Length |
+| ------ | ------ |
+| Mosquito | 34.8 mm |
+| E3D V6 | 51.3 mm |
+| Dragon | 36.3 mm |
 
 ### Links
 
-{{ eva_download_button("nimble") }}
+{{ download_button }}
+{{ cad_link }}
 
-{{ eva_link("nimble") }}
+{{ repo_url }}
 
-{{ onshape_link("nimble") }}
-
-### BOM
-
-=== "E3D V6"
-
-
-{{ bom("drives/nimble/bom/v6.csv", 4) }}
-
-=== "Mosquito"
-
-
-{{ bom("drives/nimble/bom/mosquito.csv", 4) }}
-
-=== "Dragon"
-
-
-{{ bom("drives/nimble/bom/dragon.csv", 4) }}
+{{ cad_url }}
