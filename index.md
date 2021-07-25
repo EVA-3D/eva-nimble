@@ -7,7 +7,7 @@ badges:
 contributors:
     - tomaski
 repo_url: https://github.com/EVA-3D/eva-nimble
-cad_url: https://cad.onshape.com/documents/e35f58c9e706f0d9a1845a48/v/080b000bdcfdc858d6b4cdad/e/f96bfad39506ccd9164835a1
+cad_url: https://cad.onshape.com/documents/e35f58c9e706f0d9a1845a48/v/a918be07318b83f258221b3b/e/f96bfad39506ccd9164835a1
 satisfies:
     - drive
 ---
@@ -21,17 +21,19 @@ Zesty Nimble v2 is one of the fancier options out there. Bowden system and direc
 
 === "MGN12"
 
-<add-bom-button name="{{ meta.uid }} (MGN12)">
-    {{ bom_to_json("Nimble.v2.MGN12.csv") }}
-</add-bom-button>
-{{ bom_to_md_table("Nimble.v2.MGN12", 4) }}
+    <add-bom-button name="{{ meta.uid }} (MGN12)">
+        {{ bom_to_json("Nimble.v2.MGN12.csv") }}
+    </add-bom-button>
+
+    {{ bom_to_md_table("Nimble.v2.MGN12.csv", 4) }}
 
 === "MGN15"
 
-<add-bom-button name="{{ meta.uid }} (MGN15)">
-    {{ bom_to_json("Nimble.v2.MGN15.csv") }}
-</add-bom-button>
-{{ bom_to_md_table("Nimble.v2.MGN15.csv", 4) }}
+    <add-bom-button name="{{ meta.uid }} (MGN15)">
+        {{ bom_to_json("Nimble.v2.MGN15.csv") }}
+    </add-bom-button>
+
+    {{ bom_to_md_table("Nimble.v2.MGN15.csv", 4) }}
 
 #### PTFE Tube lenghts
 
